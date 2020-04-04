@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  MemeOne
+//  memeOne
 //
-//  Created by Youssef Ibrahim on 2020-04-01.
+//  Created by Youssef Ibrahim on 2020-04-04.
 //  Copyright © 2020 Youssef Ibrahim. All rights reserved.
 //
 
