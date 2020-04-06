@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="memeOne" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="memeUno" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,14 +66,16 @@
                                 <rect key="frame" x="0.0" y="78" width="375" height="511"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="BOTTOM" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xkx-yl-7QP">
-                                <rect key="frame" x="0.0" y="524" width="375" height="20"/>
+                                <rect key="frame" x="0.0" y="524" width="375" height="48"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="TOP" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PQd-hX-bfb">
-                                <rect key="frame" x="0.0" y="118" width="375" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <rect key="frame" x="0.0" y="87" width="375" height="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done"/>
                             </textField>
                         </subviews>
@@ -104,6 +106,7 @@
                     <connections>
                         <outlet property="bottomStack" destination="r4Y-Ai-YmV" id="Uqr-17-2b7"/>
                         <outlet property="bottomText" destination="Xkx-yl-7QP" id="WjL-RV-gnO"/>
+                        <outlet property="cameraButton" destination="8f9-7D-22w" id="fzT-Pq-PV0"/>
                         <outlet property="memeHolder" destination="5lY-Fo-CF1" id="o4J-Y7-qge"/>
                         <outlet property="topStack" destination="Jqz-RP-6hV" id="fTC-v6-lyq"/>
                         <outlet property="topText" destination="PQd-hX-bfb" id="FQU-14-xT5"/>
