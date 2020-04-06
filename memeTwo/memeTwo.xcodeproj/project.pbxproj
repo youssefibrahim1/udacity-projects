@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		902B2B3A2438465D00AE4953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B2B392438465D00AE4953 /* AppDelegate.swift */; };
-		902B2B3C2438465D00AE4953 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B2B3B2438465D00AE4953 /* SceneDelegate.swift */; };
-		902B2B3E2438465D00AE4953 /* MemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B2B3D2438465D00AE4953 /* MemeViewController.swift */; };
-		902B2B412438465D00AE4953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B2B3F2438465D00AE4953 /* Main.storyboard */; };
-		902B2B432438466000AE4953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902B2B422438466000AE4953 /* Assets.xcassets */; };
-		902B2B462438466000AE4953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B2B442438466000AE4953 /* LaunchScreen.storyboard */; };
-		906930A22439535100C12EF6 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906930A12439535100C12EF6 /* Meme.swift */; };
+		906930D0243BC08500C12EF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906930CF243BC08500C12EF6 /* AppDelegate.swift */; };
+		906930D2243BC08500C12EF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906930D1243BC08500C12EF6 /* SceneDelegate.swift */; };
+		906930D4243BC08500C12EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906930D3243BC08500C12EF6 /* ViewController.swift */; };
+		906930D7243BC08500C12EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906930D5243BC08500C12EF6 /* Main.storyboard */; };
+		906930D9243BC08700C12EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906930D8243BC08700C12EF6 /* Assets.xcassets */; };
+		906930DC243BC08700C12EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906930DA243BC08700C12EF6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		902B2B362438465D00AE4953 /* memeUno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memeUno.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		902B2B392438465D00AE4953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		902B2B3B2438465D00AE4953 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		902B2B3D2438465D00AE4953 /* MemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeViewController.swift; sourceTree = "<group>"; };
-		902B2B402438465D00AE4953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		902B2B422438466000AE4953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		902B2B452438466000AE4953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		902B2B472438466000AE4953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		906930A12439535100C12EF6 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		906930CC243BC08500C12EF6 /* memeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		906930CF243BC08500C12EF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		906930D1243BC08500C12EF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		906930D3243BC08500C12EF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		906930D6243BC08500C12EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		906930D8243BC08700C12EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		906930DB243BC08700C12EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		906930DD243BC08700C12EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		902B2B332438465D00AE4953 /* Frameworks */ = {
+		906930C9243BC08500C12EF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,81 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		902B2B2D2438465D00AE4953 = {
+		906930C3243BC08500C12EF6 = {
 			isa = PBXGroup;
 			children = (
-				902B2B382438465D00AE4953 /* memeOne */,
-				902B2B372438465D00AE4953 /* Products */,
+				906930CE243BC08500C12EF6 /* memeTwo */,
+				906930CD243BC08500C12EF6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		902B2B372438465D00AE4953 /* Products */ = {
+		906930CD243BC08500C12EF6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				902B2B362438465D00AE4953 /* memeUno.app */,
+				906930CC243BC08500C12EF6 /* memeTwo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		902B2B382438465D00AE4953 /* memeOne */ = {
+		906930CE243BC08500C12EF6 /* memeTwo */ = {
 			isa = PBXGroup;
 			children = (
-				906930A0243952FB00C12EF6 /* Model */,
-				902B2B392438465D00AE4953 /* AppDelegate.swift */,
-				902B2B3B2438465D00AE4953 /* SceneDelegate.swift */,
-				902B2B3D2438465D00AE4953 /* MemeViewController.swift */,
-				902B2B3F2438465D00AE4953 /* Main.storyboard */,
-				902B2B422438466000AE4953 /* Assets.xcassets */,
-				902B2B442438466000AE4953 /* LaunchScreen.storyboard */,
-				902B2B472438466000AE4953 /* Info.plist */,
+				906930CF243BC08500C12EF6 /* AppDelegate.swift */,
+				906930D1243BC08500C12EF6 /* SceneDelegate.swift */,
+				906930D3243BC08500C12EF6 /* ViewController.swift */,
+				906930D5243BC08500C12EF6 /* Main.storyboard */,
+				906930D8243BC08700C12EF6 /* Assets.xcassets */,
+				906930DA243BC08700C12EF6 /* LaunchScreen.storyboard */,
+				906930DD243BC08700C12EF6 /* Info.plist */,
 			);
-			path = memeOne;
-			sourceTree = "<group>";
-		};
-		906930A0243952FB00C12EF6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				906930A12439535100C12EF6 /* Meme.swift */,
-			);
-			path = Model;
+			path = memeTwo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		902B2B352438465D00AE4953 /* memeOne */ = {
+		906930CB243BC08500C12EF6 /* memeTwo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 902B2B4A2438466000AE4953 /* Build configuration list for PBXNativeTarget "memeOne" */;
+			buildConfigurationList = 906930E0243BC08700C12EF6 /* Build configuration list for PBXNativeTarget "memeTwo" */;
 			buildPhases = (
-				902B2B322438465D00AE4953 /* Sources */,
-				902B2B332438465D00AE4953 /* Frameworks */,
-				902B2B342438465D00AE4953 /* Resources */,
+				906930C8243BC08500C12EF6 /* Sources */,
+				906930C9243BC08500C12EF6 /* Frameworks */,
+				906930CA243BC08500C12EF6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = memeOne;
-			productName = memeOne;
-			productReference = 902B2B362438465D00AE4953 /* memeUno.app */;
+			name = memeTwo;
+			productName = memeTwo;
+			productReference = 906930CC243BC08500C12EF6 /* memeTwo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		902B2B2E2438465D00AE4953 /* Project object */ = {
+		906930C4243BC08500C12EF6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Youssef Ibrahim";
 				TargetAttributes = {
-					902B2B352438465D00AE4953 = {
+					906930CB243BC08500C12EF6 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 902B2B312438465D00AE4953 /* Build configuration list for PBXProject "memeOne" */;
+			buildConfigurationList = 906930C7243BC08500C12EF6 /* Build configuration list for PBXProject "memeTwo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 902B2B2D2438465D00AE4953;
-			productRefGroup = 902B2B372438465D00AE4953 /* Products */;
+			mainGroup = 906930C3243BC08500C12EF6;
+			productRefGroup = 906930CD243BC08500C12EF6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				902B2B352438465D00AE4953 /* memeOne */,
+				906930CB243BC08500C12EF6 /* memeTwo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		902B2B342438465D00AE4953 /* Resources */ = {
+		906930CA243BC08500C12EF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				902B2B462438466000AE4953 /* LaunchScreen.storyboard in Resources */,
-				902B2B432438466000AE4953 /* Assets.xcassets in Resources */,
-				902B2B412438465D00AE4953 /* Main.storyboard in Resources */,
+				906930DC243BC08700C12EF6 /* LaunchScreen.storyboard in Resources */,
+				906930D9243BC08700C12EF6 /* Assets.xcassets in Resources */,
+				906930D7243BC08500C12EF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		902B2B322438465D00AE4953 /* Sources */ = {
+		906930C8243BC08500C12EF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				902B2B3E2438465D00AE4953 /* MemeViewController.swift in Sources */,
-				902B2B3A2438465D00AE4953 /* AppDelegate.swift in Sources */,
-				906930A22439535100C12EF6 /* Meme.swift in Sources */,
-				902B2B3C2438465D00AE4953 /* SceneDelegate.swift in Sources */,
+				906930D4243BC08500C12EF6 /* ViewController.swift in Sources */,
+				906930D0243BC08500C12EF6 /* AppDelegate.swift in Sources */,
+				906930D2243BC08500C12EF6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		902B2B3F2438465D00AE4953 /* Main.storyboard */ = {
+		906930D5243BC08500C12EF6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				902B2B402438465D00AE4953 /* Base */,
+				906930D6243BC08500C12EF6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		902B2B442438466000AE4953 /* LaunchScreen.storyboard */ = {
+		906930DA243BC08700C12EF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				902B2B452438466000AE4953 /* Base */,
+				906930DB243BC08700C12EF6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		902B2B482438466000AE4953 /* Debug */ = {
+		906930DE243BC08700C12EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		902B2B492438466000AE4953 /* Release */ = {
+		906930DF243BC08700C12EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,39 +280,37 @@
 			};
 			name = Release;
 		};
-		902B2B4B2438466000AE4953 /* Debug */ = {
+		906930E1243BC08700C12EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 94PQWV4UB6;
-				INFOPLIST_FILE = memeOne/Info.plist;
+				INFOPLIST_FILE = memeTwo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.khidr.meme1;
-				PRODUCT_NAME = memeUno;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khidr.memeTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		902B2B4C2438466000AE4953 /* Release */ = {
+		906930E2243BC08700C12EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 94PQWV4UB6;
-				INFOPLIST_FILE = memeOne/Info.plist;
+				INFOPLIST_FILE = memeTwo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.khidr.meme1;
-				PRODUCT_NAME = memeUno;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khidr.memeTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		902B2B312438465D00AE4953 /* Build configuration list for PBXProject "memeOne" */ = {
+		906930C7243BC08500C12EF6 /* Build configuration list for PBXProject "memeTwo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				902B2B482438466000AE4953 /* Debug */,
-				902B2B492438466000AE4953 /* Release */,
+				906930DE243BC08700C12EF6 /* Debug */,
+				906930DF243BC08700C12EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		902B2B4A2438466000AE4953 /* Build configuration list for PBXNativeTarget "memeOne" */ = {
+		906930E0243BC08700C12EF6 /* Build configuration list for PBXNativeTarget "memeTwo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				902B2B4B2438466000AE4953 /* Debug */,
-				902B2B4C2438466000AE4953 /* Release */,
+				906930E1243BC08700C12EF6 /* Debug */,
+				906930E2243BC08700C12EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 902B2B2E2438465D00AE4953 /* Project object */;
+	rootObject = 906930C4243BC08500C12EF6 /* Project object */;
 }
