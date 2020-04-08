@@ -4,18 +4,10 @@ import UIKit
 
 class TableMemeViewController: UITableViewController{
     
-    
-//    var memes: [Meme]! {
-//        let object = UIApplication.shared.delegate
-//        let appDelegate = object as! AppDelegate
-//        return appDelegate.memes
-//    }
     var memes: [Meme]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     }
     
     
@@ -24,12 +16,10 @@ class TableMemeViewController: UITableViewController{
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         memes = appDelegate.memes
         self.tableView.reloadData()
-        print("just finished reloading")
     }
     
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(" count \(memes.count)")
         return self.memes.count
     }
     
@@ -53,6 +43,8 @@ class TableMemeViewController: UITableViewController{
         navigationController?.pushViewController(detailController, animated: true)
     }
     
-    
+    @IBAction func showMemeEditor(_ sender: Any) {
+        self.performSegue(withIdentifier: "tableToEditor", sender: self)
+    }
 }
 

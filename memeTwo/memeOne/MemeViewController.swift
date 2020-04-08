@@ -22,7 +22,7 @@ class MemeViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     
     override func viewDidLoad() {
         super.viewDidLoad()
-                
+        
         textConfiguration(textField: topText, textDisplayed: "TOP")
         textConfiguration(textField: bottomText, textDisplayed: "BOTTOM")
         
@@ -95,24 +95,25 @@ class MemeViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     
     
     
+    
     @IBAction func shareMeme(_ sender: Any) {
         
         let  memedImage = generateMemedImage()
-          let activityController = UIActivityViewController(activityItems: [memedImage], applicationActivities: nil)
-          
-          self.present(activityController, animated: true, completion: nil)
-          
-          activityController.completionWithItemsHandler = { activityController, success, items, error in
-              
-              if !success {
-                  return
-              }
-              
-              self.save(memeImageSave: memedImage)
-              self.navigationController?.popToRootViewController(animated: true)
-          }
+        let vc = UIActivityViewController(activityItems: [memedImage], applicationActivities: nil)
         
-      
+        
+        vc.completionWithItemsHandler = {
+            (activity, success, items, error) in
+            self.save(memeImageSave: memedImage)
+            self.dismiss(animated: true, completion: nil)
+        }
+        self.present(vc, animated: true, completion: nil)
+        
+        
+    }
+    
+    func uponCompletion(memedImage: UIImage){
+        self.save(memeImageSave: memedImage)
     }
     
     
@@ -187,7 +188,6 @@ class MemeViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         appDelegate.memes.append(saveMeme)
-        print("saved meme\(appDelegate.memes.count)")
         
     }
     

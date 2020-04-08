@@ -7,12 +7,12 @@ class CollectionMemeViewController: UICollectionViewController {
     
     @IBOutlet weak var flowLayout: UICollectionViewFlowLayout!
     
-
-     var memes: [Meme]! {
-         let object = UIApplication.shared.delegate
-         let appDelegate = object as! AppDelegate
-         return appDelegate.memes
-     }
+    
+    var memes: [Meme]! {
+        let object = UIApplication.shared.delegate
+        let appDelegate = object as! AppDelegate
+        return appDelegate.memes
+    }
     
     var collectionViewFlowLayout: UICollectionViewFlowLayout!
     
@@ -49,7 +49,7 @@ class CollectionMemeViewController: UICollectionViewController {
             collectionView.setCollectionViewLayout(collectionViewFlowLayout, animated: true)
         }
     }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         collectionView.reloadData()
@@ -77,5 +77,10 @@ class CollectionMemeViewController: UICollectionViewController {
         detailController.meme = meme
         navigationController?.pushViewController(detailController, animated: true)
     }
+    
+    @IBAction func showMemeEditor(_ sender: Any) {
+        self.performSegue(withIdentifier: "collectionToEditor", sender: self)
+    }
+    
     
 }

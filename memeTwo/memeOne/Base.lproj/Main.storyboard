@@ -82,12 +82,13 @@
                     <navigationItem key="navigationItem" id="73a-fw-lp7">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="tDN-Ry-N80">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="showDetail" id="hsa-Nl-Ux4"/>
+                                <action selector="showMemeEditor:" destination="8bk-dL-xIb" id="uhf-CE-aS6"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="flowLayout" destination="qSt-ok-qly" id="qvk-dQ-dRX"/>
+                        <segue destination="BYZ-38-t0r" kind="showDetail" identifier="collectionToEditor" id="hZl-2g-kT8"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="91F-0a-PjY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -188,11 +189,14 @@
                     <navigationItem key="navigationItem" id="f9E-oN-Fgr">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="xqb-ka-z0x">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="showDetail" id="HUf-6a-hUV"/>
+                                <action selector="showMemeEditor:" destination="rWm-j6-vCk" id="gTZ-of-cdO"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="showDetail" identifier="tableToEditor" id="rh0-qs-Dci"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dXw-Zp-PmG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -327,6 +331,6 @@
         <image name="text.justify" catalog="system" width="64" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hsa-Nl-Ux4"/>
+        <segue reference="hZl-2g-kT8"/>
     </inferredMetricsTieBreakers>
 </document>
